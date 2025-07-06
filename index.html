@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Music</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    audio {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
+    a {
+      text-decoration: none;
+      background: #1db954;
+      padding: 10px 20px;
+      border-radius: 30px;
+      color: white;
+      font-weight: bold;
+    }
+    a:hover {
+      background: #1ed760;
+    }
+  </style>
+</head>
+<body>
+  <h1>Play My Song</h1>
+
+  <!-- Audio Player -->
+  <audio controls>
+    <source src="https://drive.google.com/uc?export=download&id=1h53vC7lNx736JhfPg4KPeVcwH0HyKNIm" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Download Link -->
+  <a href=" https://drive.google.com/uc?export=download&id=1h53vC7lNx736JhfPg4KPeVcwH0HyKNIm" download>
+    Download Song
+  </a>
+</body>
+</html>
